@@ -1,0 +1,169 @@
+/* --------------------------------- */
+/* BASIC SETUP*/
+/* --------------------------------- */
+/* A CHANGE */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; /*renders font*/
+
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content:'.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-family: sans-serif;
+}
+
+h1{
+    position:absolute;
+    font-size: 100%;
+    top: 7.5%;
+    left: 5%;
+    color:#9899b7;
+}
+/* --------------------------------- */
+/* LOGO*/
+/* --------------------------------- */
+.logo {
+    position: fixed;
+    width: 300px;
+    top: 2.5%;
+    left:5%;
+}
+
+.icon-fave {
+    position: absolute;
+    font-size: 125%;
+    color: #ff4a33;
+    top: 9%;
+    left: 73%;
+    cursor: pointer;
+}
+
+.icon-calendar {
+    position: absolute;
+    font-size: 125%;
+    color: #ffce71;
+    top: 9%;
+    left: 77%;
+    cursor: pointer;
+}
+
+.icon-notifications {
+    position: absolute;
+    font-size: 125%;
+    color: #709bfd;
+    top: 9%;
+    left: 81%;
+    cursor: pointer;
+}
+
+/* --------------------------------- */
+/* REUSABLE COMPONENT*/
+/* --------------------------------- */
+
+.row{
+    max-width: 1140px;
+    margin: 120 auto; 
+}
+
+/*-------DISCOVERY------*/
+div.scrollmenu {
+    width: 500px;
+    height: 120px;
+    background-color: rgba(255, 185, 185, 0.3);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    margin: 10px; 
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+div.scrollmenu a:hover {
+    background-color: #bcbcbc;
+}
+
+/*------MAP------*/
+<div id="map" style="width:400px;height:400px">
+
+/* --------------------------------- */
+/* FOOTER*/
+/* --------------------------------- */
+
+footer {
+    height: 30px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right:20px;
+}
+
+.footer-nav li: last-child {
+    margin-right: 0;
+}
+
+footer p{
+    color: #6292a2;
+    text-align: center;
+    font-size:80%;
+    letter-spacing: 2px;
+}
+
+/* --------------------------------- */
+/* SEARCH BAR*/
+/* --------------------------------- */
+#mySearch {
+    position:absolute;
+    top: 15%;
+    left: 5%;
+    width: 78%;
+    height: 30px;
+    border: 1px solid #f7987c;
+    border-radius: 20px;
+    font-size: 75%;
+}
+
+#searchButton {
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    width: 10%;
+    height: 30px;
+    background-color: #f7987c;
+    border: 1px solid #f7987c;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
