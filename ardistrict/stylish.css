@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; /*renders font*/
+
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content:'.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-family: sans-serif;
+}
+
+.rectangle_1{
+width:80px;
+height:600px;
+border:2px solid #8e8d8d;
+border-radius: 20px;
+font-size: 40px;
+position: absolute;
+top: 170px;
+left: 40px;
+
+
+}
+
+.rectangle_2{
+width:80px;
+height:600px;
+background-color: rgb(249, 189, 180);
+position: absolute;
+top: 160px;
+left: 55px;
+opacity: .85;
+text-align: center;
+vertical-align: middle;
+line-height: 600px;
+font-weight: bold;
+
+}
+
+.rectangle_3{
+  width:100px;
+  height:600px;
+  border:2px solid rgb(249, 189, 180);
+  border-radius: 20px;
+  font-size: 40px;
+  position: absolute;
+  top: 160px;
+  left: 90px;
+
+}
+.blue_brush {
+  color: #73a4f4;
+  position: absolute;
+  top:20%;
+  left:40%;
+  font-size: 500%;
+}
+.blue_button{
+  background: url('brush') left center no-repeat;
+  background-color: #73a4f4;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+  font-weight: 100;
+}
+
+.blue_button:hover{
+  background-color: #6490d6;
+  position: absolute;
+  top: 350px;
+  left: 160px;
+  color: white;
+  font-weight:100;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+  font-weight: 100;
+}
+
+.orange_button{
+  background-color: #f2ae65;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+
+}
+
+.orange_button:hover{
+  background-color: #e0a05c;
+  position: absolute;
+  top: 400px;
+  left: 160px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+
+}
+
+.green_button{
+  background-color: #99ef86;
+  position: absolute;
+  top: 450px;
+  left: 150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+}
+
+.green_button:hover{
+  background-color: #8ad879;
+  position: absolute;
+  top: 450px;
+  left: 160px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+}
+
+.purple_button{
+  background-color: #d19bf7;
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+
+}
+
+.purple_button:hover{
+  background-color: #bf8ce2;
+  position: absolute;
+  top: 500px;
+  left: 160px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+
+}
+
+
+.pink_button{
+  background-color: #ff93e2;
+  position: absolute;
+  top: 550px;
+  left: 150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+}
+
+.pink_button:hover{
+  background-color: #e582cb;
+  position: absolute;
+  top: 550px;
+  left: 160px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 7px 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: .85;
+  text-align: right;
+}
